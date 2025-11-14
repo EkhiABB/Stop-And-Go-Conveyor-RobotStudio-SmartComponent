@@ -18,6 +18,7 @@ Signals :
 - Stopper Sensor : feedback when a part is blocked by the stopper
 
 Behavior :
+
 When "Enable" signal is active, the generated parts are moving in a linear direction at a given speed.
 The direction of the movement is in X direction of the smartcomponent.
 When multiple parts are moving on the conveyor, collision between part is handled so that they will not overlap.
