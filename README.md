@@ -4,18 +4,18 @@ Stop And Go Conveyor RobotStudio SmartComponent
 This SmartComponent allow to simulate the behavior of a "stop and go" conveyor in a RobotStudio simulation.
 
 Properties : 
-Source Part : part to generate on the conveyor.
-Lenght : lenght of the conveyor, part are removed when reaching this dstance
-Speed : speed of the conveyor
-Stoppers : optionnal parameter that allow to add stopping positions (number of stopper)
-Stopper position : position from the smartcomponent local origin of the stopper
+- Source Part : part to generate on the conveyor.
+- Lenght : lenght of the conveyor, part are removed when reaching this dstance
+- Speed : speed of the conveyor
+- Stoppers : optionnal parameter that allow to add stopping positions (number of stopper)
+- Stopper position : position from the smartcomponent local origin of the stopper
 
 Signals : 
-Add Object : new object is added at the local origin of the conveyor
-Clear : all the object are removed
-Enable : objects on the conveyor are moving at the desired speed
-Stopper Command : the part will be blocked when reaching the stopper position
-Stopper Sensor : feedback when a part is blocked by the stopper
+- Add Object : new object is added at the local origin of the conveyor
+- Clear : all objects are removed
+- Enable : objects on the conveyor are moving at the desired speed
+- Stopper Command : the part will be blocked when reaching the stopper position
+- Stopper Sensor : feedback when a part is blocked by the stopper
 
 Behavior :
 When "Enable" signal is active, the generated parts are moving in a linear direction at a given speed.
