@@ -5,7 +5,7 @@ This SmartComponent allow to simulate the behavior of a "stop and go" conveyor i
 
 Properties : 
 - Source Part : part to generate on the conveyor.
-- Lenght : lenght of the conveyor, part are removed when reaching this dstance
+- Lenght : lenght of the conveyor, part are removed when reaching this distance
 - Speed : speed of the conveyor
 - Stoppers : optionnal parameter that allow to add stopping positions (number of stopper)
 - Stopper position : position from the smartcomponent local origin of the stopper
