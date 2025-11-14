@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lc:LibraryCompiler xmlns:lc="urn:abb-robotics-robotstudio-librarycompiler"
+										xmlns="urn:abb-robotics-robotstudio-graphiccomponent"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="urn:abb-robotics-robotstudio-librarycompiler file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202025%20SDK\LibraryCompilerSchema.xsd
+                                        urn:abb-robotics-robotstudio-graphiccomponent file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202025%20SDK\GraphicComponentSchema.xsd">
+	<lc:Library fileName="StopAndGoConveyor.rslib">
+		<lc:DocumentProperties>
+			<lc:Author>FREKLAN</lc:Author>
+			<lc:Image source="StopAndGoConveyor.png"/>
+		</lc:DocumentProperties>
+		<SmartComponent name="StopAndGoConveyor" icon="StopAndGoConveyor.png"
+										codeBehind="StopAndGoConveyor.CodeBehind,StopAndGoConveyor.dll"
+										canBeSimulated="true">
+			<Properties>
+        <DynamicProperty name="SourcePart" valueType="ABB.Robotics.RobotStudio.Stations.Part">
+          <Attribute	key="AutoApply" value="True"/>
+        </DynamicProperty>
+				<DynamicProperty name="Lenght" valueType="System.Double" value="1">
+					<Attribute key="MinValue" value="0"/>
+					<Attribute key="Quantity" value="Length"/>
+          <Attribute	key="AutoApply" value="True"/>
+				</DynamicProperty>
+        <DynamicProperty name="Speed" valueType="System.Double" value="0.1">
+          <Attribute key="MinValue" value="0"/>
+          <Attribute key="Quantity" value="Velocity"/>
+          <Attribute	key="AutoApply" value="True"/>
+        </DynamicProperty>
+        <DynamicProperty name="Stopper" caption="Number of stop position" valueType="System.Int32" value="0">
+          <Attribute key="MinValue" value="0"/>
+          <Attribute	key="AutoApply" value="True"/>
+        </DynamicProperty>
+			</Properties>
+			<Bindings>
+			</Bindings>
+			<Signals>
+        <IOSignal name="AddObject" signalType="DigitalInput" autoReset="true"/>
+        <IOSignal name="Clear" signalType="DigitalInput" autoReset="true"/>
+        <IOSignal name="Enable" signalType="DigitalInput"/>
+			</Signals>
+			<GraphicComponents>
+        <GraphicComponentGroup name="ObjectList" uiVisible="true">
+        </GraphicComponentGroup>
+			</GraphicComponents>
+			<Assets>
+				<Asset source="StopAndGoConveyor.dll"/>
+			</Assets>
+		</SmartComponent>
+	</lc:Library>
+</lc:LibraryCompiler>

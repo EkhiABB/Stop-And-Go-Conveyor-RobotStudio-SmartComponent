@@ -1,0 +1,6 @@
+C:\ABB\02_DEV\SC\StopAndGoConveyor\StopAndGoConveyor\StopAndGoConveyor\obj\Debug\StopAndGoConveyor.csproj.AssemblyReference.cache
+C:\ABB\02_DEV\SC\StopAndGoConveyor\StopAndGoConveyor\StopAndGoConveyor\obj\Debug\StopAndGoConveyor.csproj.CoreCompileInputs.cache
+C:\ABB\02_DEV\SC\StopAndGoConveyor\StopAndGoConveyor\StopAndGoConveyor\bin\Debug\StopAndGoConveyor.dll
+C:\ABB\02_DEV\SC\StopAndGoConveyor\StopAndGoConveyor\StopAndGoConveyor\bin\Debug\StopAndGoConveyor.pdb
+C:\ABB\02_DEV\SC\StopAndGoConveyor\StopAndGoConveyor\StopAndGoConveyor\obj\Debug\StopAndGoConveyor.dll
+C:\ABB\02_DEV\SC\StopAndGoConveyor\StopAndGoConveyor\StopAndGoConveyor\obj\Debug\StopAndGoConveyor.pdb
